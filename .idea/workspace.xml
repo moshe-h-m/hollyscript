@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70970e92-386c-481f-80e3-cc24a6b41138" name="Changes" comment="day 2 1:49 m">
-      <change afterPath="$PROJECT_DIR$/hollyscript-soffer/app/(dashboard)/[storeId]/(routes)/settings/component/settings-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hollyscript-soffer/app/(dashboard)/[storeId]/(routes)/settings/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hollyscript-soffer/app/(root)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hollyscript-soffer/components/main-nav.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hollyscript-soffer/components/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hollyscript-soffer/components/store-switcher.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hollyscript-soffer/components/ui/heading.tsx" afterDir="false" />
+    <list default="true" id="70970e92-386c-481f-80e3-cc24a6b41138" name="Changes" comment="day 4 2:54 m">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hollyscript-soffer/app/(dashboard)/[storeId]/(routes)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hollyscript-soffer/app/(dashboard)/[storeId]/(routes)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hollyscript-soffer/app/(dashboard)/[storeId]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hollyscript-soffer/app/(dashboard)/[storeId]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hollyscript-soffer/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hollyscript-soffer/app/(root)/(routes)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hollyscript-soffer/components/modals/store-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hollyscript-soffer/components/modals/store-modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hollyscript-soffer/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hollyscript-soffer/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hollyscript-soffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hollyscript-soffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hollyscript-soffer/app/(dashboard)/[storeId]/(routes)/settings/component/settings-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hollyscript-soffer/app/(dashboard)/[storeId]/(routes)/settings/component/settings-form.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +83,7 @@
       <workItem from="1690531380428" duration="5927000" />
       <workItem from="1690661914193" duration="4620000" />
       <workItem from="1690697786072" duration="2948000" />
-      <workItem from="1690751165009" duration="3110000" />
+      <workItem from="1690751165009" duration="4134000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -129,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690495897138</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day 4 2:54 m">
+      <option name="closed" value="true" />
+      <created>1690754605516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690754605516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +148,7 @@
     </ignored-roots>
     <MESSAGE value="first commit" />
     <MESSAGE value="day 2 1:49 m" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2 1:49 m" />
+    <MESSAGE value="day 4 2:54 m" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 4 2:54 m" />
   </component>
 </project>

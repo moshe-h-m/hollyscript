@@ -9,6 +9,8 @@ import {Separator} from "@/components/ui/separator";
 import {zodResolver} from "@hookform/resolvers/zod";
 import {useForm} from "react-hook-form";
 import {useState} from "react";
+import {Form, FormLabel, FormField, FormItem, FormControl, FormMessage} from "@/components/ui/form";
+import {Input} from "@/components/ui/input";
 
 interface SettingsFormProps {
     initialData: Store;
@@ -31,6 +33,10 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({initialData}) => {
 
     });
 
+    const onSubmit = async (values: SettingsFormValues) => {
+        console.log(values);
+    }
+
     return (
         <>
             <div className='flex items-center justify-between'>
@@ -46,6 +52,34 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({initialData}) => {
                 </Button>
             </div>
             <Separator/>
+            <Form{...form}>
+                <form
+                    onSubmit={form.handleSubmit(onSubmit)}
+                    className='space-y-8 w-full'>
+                    <div className='grid grid-cols-3 gap-8'>
+                        <FormField
+                            control={form.control}
+                            render={({field}) => (
+                                <FormItem>
+                                    <FormLabel>Name</FormLabel>
+                                    <FormControl>
+                                        <Input
+                                            disabled={loading}
+                                            placeholder='Store name' {...field}/>
+                                    </FormControl>
+                                    <FormMessage />
+                                </FormItem>
+                            )}
+                            name="name"/>
+                    </div>
+                    <Button disabled={loading}
+                            className="ml-auto"
+                            type="submit">
+                        Save changes
+                    </Button>
+                </form>
+
+            </Form>
         </>
     );
 }
